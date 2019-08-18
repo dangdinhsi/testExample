@@ -6,7 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47036cc5-b538-4ca6-8c28-11d83dc62323" name="Default Changelist" comment="" />
+    <list default="true" id="47036cc5-b538-4ca6-8c28-11d83dc62323" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST_HIBERNATE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TEST_HIBERNATE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TEST_HIBERNATE_war_exploded/WEB-INF/classes/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TEST_HIBERNATE_war_exploded/WEB-INF/classes/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TEST_HIBERNATE_war_exploded/WEB-INF/classes/controller/ShoppingCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TEST_HIBERNATE_war_exploded/WEB-INF/classes/controller/ShoppingCartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TEST_HIBERNATE_war_exploded/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TEST_HIBERNATE_war_exploded/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TEST_HIBERNATE_war_exploded/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TEST_HIBERNATE_war_exploded/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TEST_HIBERNATE_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TEST_HIBERNATE_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ShoppingCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ShoppingCartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +38,9 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -39,6 +58,7 @@
   </component>
   <component name="ProjectId" id="1Pa5zASyK1cDnf3dISR5YZwOjBc" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
@@ -173,10 +193,22 @@
       <option name="presentableId" value="Default" />
       <updated>1566099626672</updated>
       <workItem from="1566099628514" duration="14556000" />
+      <workItem from="1566134797486" duration="5777000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

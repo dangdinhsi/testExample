@@ -21,14 +21,8 @@ public class OrderController extends HttpServlet {
         customer.setName(customerName);
         customer.setAddress(address);
         customer.setPhone(phone);
-        customer.setTotal(Double.parseDouble(total));
-        if(customer.getTotal()<5000){
-            customer.setMessage("Số tiền thanh toán của quý khách là:");
-            customer.setTotal(Double.parseDouble(total));
-        }else {
-            customer.setMessage("Do tổng giá trị hóa đơn của quý khách >=5000$ nên số tiền phải trả là:");
-            customer.setTotal(Double.parseDouble(total)*0.7);
-        }
+        double _total= Double.parseDouble(total);
+        customer.setTotal(_total);
         req.setAttribute("customer",customer);
         session.invalidate();
         req.getRequestDispatcher("/detail.jsp").forward(req,resp);

@@ -45,4 +45,19 @@ public class ShoppingCartController extends HttpServlet {
                 return i;
             return -1;
     }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String action = req.getParameter("action");
+        HttpSession session = req.getSession();
+        if(action.equalsIgnoreCase("update")){
+            List<Item> cart = (List<Item>) session.getAttribute("cart");
+            String []quantity = req.getParameterValues("quantity");
+            for (int i=0;i<cart.size();i++){
+                cart.get(i).setQuantity(Integer.parseInt(quantity[i]));
+            }
+            session.setAttribute("cart",cart);
+            req.getRequestDispatcher("/cart.jsp").forward(req,resp);
+        }
+    }
 }

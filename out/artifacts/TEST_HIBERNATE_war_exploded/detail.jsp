@@ -18,8 +18,18 @@
 <div>Khách hàng: <b><%=customer.getName()%></b></div>
 <div>Địa chỉ: <b><%=customer.getAddress()%></b></div>
 <div>SĐT: <b><%=customer.getPhone()%></b></div>
+<div>Tổng giá trị đơn hàng là: <b><%=customer.getTotal()%></b>$</div>
+<br>
 <div>
-    <%=customer.getMessage()%> <b style="color: red"><%=customer.getTotal()%>$</b>
+    <%
+        if(customer.getTotal()>=5000){
+            %>
+            <b style="color: gray">Do tổng giá trị đơn hàng của bạn >=5000$ nên bạn được giảm giá 30%</b>
+            <br>
+            <b style="color: gray">Số tiền bạn phải trả: <%=customer.getTotal()*0.7%>$</b>
+             <%
+        }
+    %>
 </div>
 </body>
 </html>
